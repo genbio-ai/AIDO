@@ -1,6 +1,6 @@
 [![GenBio AI](https://raw.githubusercontent.com/genbio-ai/ModelGenerator/main/docs/docs/assets/images/genbio_header.png)](https://genbio.ai/)
 
-# AIDO: AI-Driven Digital Organism
+# Research Overview
 
 An AI-Driven Digital Organism (AIDO) is a system of integrated multiscale foundation models for predicting, simulating and programming biology at all levels. It is constructed in a modular, connectable, and holistic fashion to reflect biological scales, connectedness, and complexities. 
 
@@ -14,15 +14,15 @@ layer, and applications of various types of bioengineering problems, as illustra
 We took an engineering viable approach to building the AIDO in 3 stages. The first stage is to build up a necessary set of fundamental building blocks or modules representing the major data modalities arising in biology in a “divide-and-conquer” fashion. The second stage is to develop a set of new deep learning architectures that integrate the central dogma, regulatory rules, and the interconnected nature of biology, as well as different data modalities or modules in a bottom-up fashion to reflect the multiscale, nested, and hierarchical organization of biological systems. These architectures can bridge the existing gaps by integrating biological knowledge into the models and developing models that can seamlessly operate across various biological scales and modalities — thereby “dots are connected”. In the third stage, the modules and connected modules are unified into a networked system, where representations and embeddings can be passed around in different nodes and levels of the systems, and especially feedback and gradient signals from the coarser and topper level of the system can be propagated all the way back to the bottom level of the system to further improve these modules. This is like the “aligning and optimization” phase in an assembly process. With a set of benchmarks and supervisory tasks from different levels and scales of biology, all the system modules can be jointly adapted and aligned to achieve synergy towards an overall better or even emergent system-level performance.
 
 As our initial release of the stage 1 of AIDO, we have completed the pretraining of the following set of foundation models: 
-* AIDO.DNA
-* AIDO.RNA
-* AIDO.Protein
-* AIDO.StructureTokenizer
-* AIDO.Cell
+* AIDO.DNA --> GB.DNA
+* AIDO.RNA --> GB.RNA
+* AIDO.Protein --> GB.Protein
+* AIDO.StructureTokenizer --> GB.StructureTokenizer
+* AIDO.Cell --> GB.Cell
   
 These pretrained foundation models and the correpsonding downstream utility layer for adapting these models and generating downstream task models are currently released as the AIDO.ModelGenerator repository:
 
-[AIDO.ModelGenerator](https://github.com/genbio-ai/ModelGenerator)
+[GB.ModelGenerator](https://github.com/genbio-ai/ModelGenerator)
 
 and Hugging Face model checkpoints: 
 
