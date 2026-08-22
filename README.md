@@ -2,8 +2,6 @@
 
 # Research Overview
 
-# AIDO: AI-Driven Digital Organism
-
 GenBio AI is building AIDO, an AI-Driven Digital Organism: a system of integrated multiscale foundation models for predicting, simulating, and programming biology at all levels, from molecules to cells to individuals.
 
 Our first virtual cell, **AIDO Cell**, is a world model that simulates a cell's biology from molecules to whole-cell behavior. Join the waitlist for early access to the closed alpha.
