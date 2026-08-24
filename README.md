@@ -25,7 +25,7 @@ Our initial stage-1 release in 2024 included the following foundation models:
 
 These pretrained foundation models, and the corresponding downstream utility layer for adapting them and generating downstream task models, remain available via the [GB.ModelGenerator](https://github.com/genbio-ai/ModelGenerator) repository and as [Hugging Face model checkpoints](https://huggingface.co/genbio-ai).
 
-All models hosted in this organization, past and present, are developed by GenBio AI's research team. GenBio AI holds full ownership of the underlying intellectual property.
+*All models hosted in this organization, past and present, are developed by GenBio AI’s research team. Models and codes in this organization are released under the GenBio AI Community License. The full terms are included in the [LICENSE](https://github.com/genbio-ai/Research-Overview/blob/main/LICENSE.txt) file of each repository.*
 
 ## Learn more
 
